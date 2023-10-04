@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Tecnologia</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(20, 147,220), rgb(17,54,71));
+        }
+
+        #quizForm{
+            color: white;
+        }
+
+        .center{
+            background-color: rgba(0,0,0,0.6);
+            border-radius: 15px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .nota{
+            background-color: rgba(0,0,0,0.6);
+            border-radius: 15px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+            color: white;
+            width: 30%;
+        }
+
+        button{
+            background-color: rgb(51, 134, 218);
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            font-size: larger;
+        }
+        button:hover{
+            background-color: rgb(33, 98, 163);
+            cursor: pointer;
+        }
+
+        h1{
+            color: white;
+            text-align: center;
+            background-color: rgba(0,0,0,0.7);
+            border-radius: 15px;
+            padding: 15px;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+        }
+
+        .voltar{
+            background-color: rgb(80,19,195);
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .voltar:hover{
+            background-color: rgb(50, 5, 134);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <a href="home.html" class="voltar">Voltar</a>
+    <h1>Atividade</h1>
+
+    <div class="center">
+        <form id="quizForm">
+            <h2>Pergunta 1: Qual é o componente principal do computador que executa instruções do programa e processa dados?</h2>
+            <input type="radio" name="q1" value="B"> A) CPU<br>
+            <input type="radio" name="q1" value="A"> B) RAM<br>
+            <input type="radio" name="q1" value="C"> C) Armazenamento<br>
+            <input type="radio" name="q1" value="D"> D) Sistema Operacional<br>
+            <br><br>
+
+            <h2>Pergunta 2: Qual é uma prática de segurança eficaz para proteger contra ameaças como phishing e malware?</h2>
+            <input type="radio" name="q2" value="C"> A) Usar senhas fracas<br>
+            <input type="radio" name="q2" value="A"> B) Evitar atualizações de software<br>
+            <input type="radio" name="q2" value="B"> C) Autenticação de dois fatores<br>
+            <input type="radio" name="q2" value="D"> D) Compartilhar informações pessoais online<br>
+            <br><br>
+            <h2>Pergunta 3: O que torna os jogos eletrônicos diversificados em termos de experiência?</h2>
+            <input type="radio" name="q3" value="B"> A) Gêneros variados, desde aventura até estratégia<br>
+            <input type="radio" name="q3" value="A"> B) Gráficos complexos<br>
+            <input type="radio" name="q3" value="C"> C) Preço elevado<br>
+            <input type="radio" name="q3" value="D"> D) Plataformas de distribuição<br>
+            <br><br>
+            <h2>Pergunta 4: O que são loops em programação?</h2>
+            <input type="radio" name="q4" value="A"> A) Variáveis de armazenamento de dados<br>
+            <input type="radio" name="q4" value="B"> B) Repetição de instruções<br>
+            <input type="radio" name="q4" value="C"> C) Condições para tomada de decisões<br>
+            <input type="radio" name="q4" value="D"> D) Nenhuma das opções acima<br>
+            <br><br>
+            <h2>Pergunta 5: Como os aplicativos são desenvolvidos para dispositivos móveis?</h2>
+            <input type="radio" name="q5" value="B"> A) Usando linguagens como Swift e Kotlin para Android<br>
+            <input type="radio" name="q5" value="A"> B) Apenas para sistemas operacionais iOS<br>
+            <input type="radio" name="q5" value="C"> C) Apenas por grandes empresas de tecnologia<br>
+            <input type="radio" name="q5" value="D"> D) Apenas para dispositivos Android<br>
+            <br><br>
+            <h2>Pergunta 6: Além das funcionalidades, qual outro aspecto é vital entender sobre dispositivos móveis?</h2>
+            <input type="radio" name="q6" value="A"> A) Histórico de compras do usuário<br>
+            <input type="radio" name="q6" value="B"> B) Configurações de privacidade e permissões de aplicativos<br>
+            <input type="radio" name="q6" value="C"> C) Modelos de lucro das empresas de smartphones<br>
+            <input type="radio" name="q6" value="D"> D) A velocidade de conexão à internet do dispositivo<br>
+            <br><br>
+            <h2>Pergunta 7: O que é crucial para usuários de redes sociais responsáveis?</h2>
+            <input type="radio" name="q7" value="C"> A) Compartilhar todas as informações pessoais<br>
+            <input type="radio" name="q7" value="A"> B) Ignorar configurações de privacidade<br>
+            <input type="radio" name="q7" value="B"> C) Conhecer as configurações de privacidade e discernir entre informações confiáveis e falsas<br>
+            <input type="radio" name="q7" value="D"> D) Engajar-se em cyberbullying<br>
+            <br><br>
+            <h2>Pergunta 8: O que é aprendizado de máquina em inteligência artificial?</h2>
+            <input type="radio" name="q8" value="A"> A) Capacidade dos robôs realizar tarefas físicas<br>
+            <input type="radio" name="q8" value="B"> B) A capacidade dos algoritmos aprenderem e melhorarem com dados<br>
+            <input type="radio" name="q8" value="C"> C) Simulação de processos de inteligência humana<br>
+            <input type="radio" name="q8" value="D"> D) Programação básica de robôs<br>
+            <br><br>
+            <h2>Pergunta 9: Qual é a principal diferença entre Realidade Virtual (RV) e Realidade Aumentada (RA)?</h2>
+            <input type="radio" name="q9" value="B"> A) RV cria ambientes simulados, enquanto RA adiciona elementos virtuais ao mundo real<br>
+            <input type="radio" name="q9" value="A"> B) RV usa apenas óculos especiais, enquanto RA usa smartphones e tablet<br>
+            <input type="radio" name="q9" value="C"> C) RV não é usada em jogos, enquanto RA é exclusiva para jogos<br>
+            <input type="radio" name="q9" value="D"> D) RV não permite interação do usuário, enquanto RA permite interatividade completa<br>
+            <br><br>
+            <h2>Pergunta 10: Como os carros autônomos navegam sem intervenção humana?</h2>
+            <input type="radio" name="q10" value="A"> A) Usando apenas câmeras para orientação<br>
+            <input type="radio" name="q10" value="B"> B) Usando sensores e algoritmos para navegação<br>
+            <input type="radio" name="q10" value="C"> C) Usando apenas GPS para orientação<br>
+            <input type="radio" name="q10" value="D"> D) Usando apenas mapas pré-programados no sistema do carro<br>
+
+            <!-- Adicione mais perguntas e opções semelhantes para outras perguntas aqui -->
+
+            <br><br>
+            <button type="button" onclick="calcularNota()">Verificar Respostas</button>
+        </form>
+    </div>
+
+    <h2 class="nota">Sua Nota: <span id="nota"></span></h2>
+
+    <script>
+        function calcularNota() {
+            var respostasCorretas = ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B"];
+            var pontuacao = 0;
+
+            for (var i = 1; i <= respostasCorretas.length; i++) {
+                var resposta = document.querySelector('input[name="q' + i + '"]:checked');
+                if (resposta) {
+                    if (resposta.value === respostasCorretas[i - 1]) {
+                        pontuacao++;
+                    }
+                }
+            }
+
+            var nota = (pontuacao / respostasCorretas.length) * 10;
+            document.getElementById("nota").textContent = nota.toFixed(2);
+        }
+    </script>
+</body>
+
+</html>

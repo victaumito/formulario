@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Tecnologia</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(20, 147,220), rgb(17,54,71));
+        }
+
+        #quizForm{
+            color: white;
+        }
+
+        .center{
+            background-color: rgba(0,0,0,0.6);
+            border-radius: 15px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .nota{
+            background-color: rgba(0,0,0,0.6);
+            border-radius: 15px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+            color: white;
+            width: 30%;
+        }
+
+        button{
+            background-color: rgb(51, 134, 218);
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            font-size: larger;
+        }
+        button:hover{
+            background-color: rgb(33, 98, 163);
+            cursor: pointer;
+        }
+
+        h1{
+            color: white;
+            text-align: center;
+            background-color: rgba(0,0,0,0.7);
+            border-radius: 15px;
+            padding: 15px;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+        }
+
+        .voltar{
+            background-color: rgb(80,19,195);
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .voltar:hover{
+            background-color: rgb(50, 5, 134);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <a href="home.html" class="voltar">Voltar</a>
+    <h1>Atividade</h1>
+
+    <div class="center">
+        <form id="quizForm">
+            <h2>Pergunta 1: Como a integração de tecnologia na sala de aula pode beneficiar os alunos?</h2>
+            <input type="radio" name="q1" value="C"> A) Reduzindo a interatividade e o engajamento dos alunos nas aulas<br>
+            <input type="radio" name="q1" value="A"> B) Limitando o acesso dos alunos às informações online<br>
+            <input type="radio" name="q1" value="B"> C) Enriquecendo o processo de aprendizado através de recursos digitais e interativos<br>
+            <input type="radio" name="q1" value="D"> D) Aumentando a complexidade e dificuldade das atividades educacionais<br>
+            <br><br>
+
+            <h2>Pergunta 2: Qual é uma vantagem das ferramentas de feedback online para os professores?</h2>
+            <input type="radio" name="q2" value="C"> A) Feedback demorado e demorado para os alunos<br>
+            <input type="radio" name="q2" value="A"> B) Feedback padronizado para todos os alunos, independentemente de seu desempenho<br>
+            <input type="radio" name="q2" value="B"> C) Fornecimento de feedback imediato e personalizado para os alunos<br>
+            <input type="radio" name="q2" value="D"> D) Limitação no tipo de feedback que pode ser fornecido<br>
+            <br><br>
+            <h2>Pergunta 3: Qual é uma característica fundamental das plataformas de ensino à distância?</h2>
+            <input type="radio" name="q3" value="A"> A) Limitação ao ensino em horários fixos, sem flexibilidade<br>
+            <input type="radio" name="q3" value="B"> B) Acesso a recursos educacionais e aulas ao vivo de qualquer lugar do mundo<br>
+            <input type="radio" name="q3" value="C"> C) Apenas suporte para aprendizado individual, sem interação com outros alunos<br>
+            <input type="radio" name="q3" value="D"> D) Dependência de conexões de internet de alta velocidade<br>
+            <br><br>
+            <h2>Pergunta 4: Por que é importante ensinar sobre cidadania digital?</h2>
+            <input type="radio" name="q4" value="A"> A) Para limitar o acesso dos alunos à internet<br>
+            <input type="radio" name="q4" value="C"> B) Para ajudar os alunos a entenderem como evitar completamente os perigos online<br>
+            <input type="radio" name="q4" value="B"> C) Para ensinar comportamentos responsáveis nas redes sociais e prevenir ciberbullying<br>
+            <input type="radio" name="q4" value="D"> D) Para incentivar os alunos a compartilharem informações pessoais online<br>
+            <br><br>
+            <h2>Pergunta 5: O que a gamificação na educação envolve?</h2>
+            <input type="radio" name="q5" value="C"> A) Reduzir o engajamento dos alunos usando elementos de jogos<br>
+            <input type="radio" name="q5" value="A"> B) Transformar o aprendizado em um jogo de azar<br>
+            <input type="radio" name="q5" value="B"> C) Utilizar recompensas, desafios e competições para motivar os alunos no processo de aprendizado<br>
+            <input type="radio" name="q5" value="D"> D) Ignorar completamente a interatividade nos métodos de ensino<br>
+            <br><br>
+            <h2>Pergunta 6: Como a inteligência artificial é utilizada na educação?</h2>
+            <input type="radio" name="q6" value="A"> A) Apenas para substituir professores em sala de aula<br>
+            <input type="radio" name="q6" value="C"> B) Para criar tarefas de aprendizado padrão para todos os alunos<br>
+            <input type="radio" name="q6" value="B"> C) Para personalizar o ensino, oferecendo experiências adaptativas e tutores virtuais<br>
+            <input type="radio" name="q6" value="D"> D) Para aumentar a carga de trabalho dos professores<br>
+            <br><br>
+            <h2>Pergunta 7: Por que é importante ensinar habilidades de programação para os alunos?</h2>
+            <input type="radio" name="q7" value="C"> A) Apenas para alunos interessados em seguir carreiras em tecnologia<br>
+            <input type="radio" name="q7" value="B"> B) Para desenvolver habilidades lógicas, resolução de problemas e pensamento computacional<br>
+            <input type="radio" name="q7" value="A"> C) Apenas para alunos do ensino superior<br>
+            <input type="radio" name="q7" value="D"> D) Para aumentar a carga de trabalho dos professores<br>
+            <br><br>
+            <h2>Pergunta 8: O que são tecnologias assistivas na educação?</h2>
+            <input type="radio" name="q8" value="A"> A) Tecnologias que limitam o acesso dos alunos ao conteúdo digital<br>
+            <input type="radio" name="q8" value="B"> B) Ferramentas e dispositivos tecnológicos que ajudam alunos com necessidades especiais a acessarem conteúdo digital<br>
+            <input type="radio" name="q8" value="C"> C) Tecnologias que não têm aplicação prática na sala de aula<br>
+            <input type="radio" name="q8" value="D"> D) Tecnologias que ajudam apenas os professores, não os alunos<br>
+            <br><br>
+            <h2>Pergunta 9: Qual é uma estratégia eficaz para o uso responsável de dispositivos móveis em sala de aula?</h2>
+            <input type="radio" name="q9" value="A"> A) Permitir o uso irrestrito de dispositivos móveis a qualquer momento durante as aulas<br>
+            <input type="radio" name="q9" value="B"> B) Estabelecer diretrizes claras para o uso dos dispositivos e aproveitar suas funcionalidades educacionais<br>
+            <input type="radio" name="q9" value="C"> C) Ignorar completamente o uso de dispositivos móveis em sala de aula<br>
+            <input type="radio" name="q9" value="D"> D) Proibir totalmente o uso de dispositivos móveis<br>
+            <br><br>
+            <h2>Pergunta 10: Como a produção de conteúdo digital pode beneficiar os alunos?</h2>
+            <input type="radio" name="q10" value="A"> A) Limitando sua expressão criativa<br>
+            <input type="radio" name="q10" value="B"> B) Desenvolvendo habilidades de comunicação, criatividade e pensamento crítico<br>
+            <input type="radio" name="q10" value="C"> C) Apenas aumentando a carga de trabalho dos alunos<br>
+            <input type="radio" name="q10" value="D"> D) Reduzindo sua compreensão das tecnologias digitais<br>
+
+            <!-- Adicione mais perguntas e opções semelhantes para outras perguntas aqui -->
+
+            <br><br>
+            <button type="button" onclick="calcularNota()">Verificar Respostas</button>
+        </form>
+    </div>
+
+    <h2 class="nota">Sua Nota: <span id="nota"></span></h2>
+
+    <script>
+        function calcularNota() {
+            var respostasCorretas = ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B"];
+            var pontuacao = 0;
+
+            for (var i = 1; i <= respostasCorretas.length; i++) {
+                var resposta = document.querySelector('input[name="q' + i + '"]:checked');
+                if (resposta) {
+                    if (resposta.value === respostasCorretas[i - 1]) {
+                        pontuacao++;
+                    }
+                }
+            }
+
+            var nota = (pontuacao / respostasCorretas.length) * 10;
+            document.getElementById("nota").textContent = nota.toFixed(2);
+        }
+    </script>
+</body>
+
+</html>
